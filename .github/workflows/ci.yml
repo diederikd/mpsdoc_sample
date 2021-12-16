@@ -15,8 +15,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
-This is the place to install further MkDocs plugins or Markdown extensions with pip to be used during the build:
-
 
 pip install \
   mkdocs-material \
