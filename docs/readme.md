@@ -14,5 +14,5 @@ the markdown language from the following github repo:
 https://github.com/diederikd/Markdown
 
 # Sample site
-Look at https://diederikd.github.io/mpsdoc_sample/site/ 
+Have a Look at https://diederikd.github.io/mpsdoc_sample/site/ 
 
