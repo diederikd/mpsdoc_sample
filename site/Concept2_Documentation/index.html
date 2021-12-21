@@ -87,15 +87,27 @@
           <div role="main">
             <div class="section">
               
-                <p># Concept2  <br> 
-  This is the documentation for concept2. 
+                <p># Concept2  <br> </p>
+<p><code>plantuml 
+  @startuml 
+  class Concept2 
+  { 
+  string : property21 
+  string : property22 
+  string : property23 
+  } 
+  BaseConcept &lt;|-- Concept2 
+  @enduml</code> </p>
+<p>This is the documentation for concept2. 
   You can write anything in here. </p>
 <p><strong>Extends:</strong> BaseConcept  <br> </p>
+<p><strong>Implements:</strong>  <br> </p>
 <p><strong>Properties:</strong>  <br> 
   property21 : string  <br> property22 : string  <br> property23 : string  <br> </p>
 <p><strong>Children:</strong>  <br> 
-  child21  <br> child22  <br> child23  <br> </p>
-<p><strong>Editor:</strong>  <br> </p>
+  child21 : <a href="./">Concept2</a>  <br> child22 : <a href="./">Concept2</a>  <br> child23 : <a href="../Concept3_Documentation/">Concept3</a>  <br> </p>
+<p><strong>Editor:</strong>  <br> 
+  This is the editor of concept2 NEWLINE <br> {property21} NEWLINE <br> {property22} NEWLINE <br> {property23} NEWLINE <br> %child21% NEWLINE <br> (child22)* NEWLINE <br> %child23% NEWLINE <br> </p>
               
             </div>
           </div>

@@ -87,17 +87,31 @@
           <div role="main">
             <div class="section">
               
-                <p># Concept1  <br> 
-  This is the documentation for concept1. </p>
+                <p># Concept1  <br> </p>
+<p><code>plantuml 
+  @startuml 
+  class Concept1 
+  { 
+  string : property11 
+  string : property12 
+  string : property13 
+  } 
+  BaseConcept &lt;|-- Concept1 
+  INamedConcept &lt;|.. Concept1 
+  ScopeProvider &lt;|.. Concept1 
+  @enduml</code> </p>
+<p>This is the documentation for concept1. </p>
 <hr />
 <p>You can write here text in a basic markdown syntax. </p>
 <p><strong>Extends:</strong> BaseConcept  <br> </p>
+<p><strong>Implements:</strong>  <br> 
+  INamedConcept  <br> ScopeProvider  <br> </p>
 <p><strong>Properties:</strong>  <br> 
   property11 : string  <br> property12 : string  <br> property13 : string  <br> </p>
 <p><strong>Children:</strong>  <br> 
-  child11  <br> child12  <br> child13  <br> </p>
+  child11 : <a href="../Concept2_Documentation/">Concept2</a>  <br> child12 : <a href="../Concept2_Documentation/">Concept2</a>  <br> child13 : <a href="../Concept3_Documentation/">Concept3</a>  <br> </p>
 <p><strong>Editor:</strong>  <br> 
-  test test test test test test test test test test test test test test test test test test test test test test test test test test test </p>
+  concept1 ( property11 : {property11} , property12 : {property12} , property13 : {property13} , NEWLINE <br> child11 : %child11% , child13 : %child13% , child12 ( (child12)* ) ) </p>
               
             </div>
           </div>
