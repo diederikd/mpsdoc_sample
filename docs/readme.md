@@ -18,3 +18,6 @@ MPSdoc is developed using Jetbrains MPS 2021.2 and is using
 the markdown language from the following github repo:
 https://github.com/diederikd/Markdown
 
+# Sample site
+Have a look at https://diederikd.github.io/mpsdoc_sample/site/ 
+
